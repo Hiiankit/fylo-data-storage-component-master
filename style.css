@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&family=Raleway&display=swap');
+
+body{
+
+    background-color: hsl(229, 57%, 11%);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.backgroundImage{
+    position: fixed;
+    position: fixed;
+    bottom: -77px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo{
+    background-color: hsl(228, 56%, 26%);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 42px 48px 30px 25px;
+    border-radius: 20px;
+    border-top-right-radius: 90px;
+}
+
+.image{
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}
+
+.fylo{
+    padding-right: 97px;
+    padding-bottom: 32px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 56px;
+    
+}
+.BarContainer{
+    position: relative;
+    background-color: hsl(228, 56%, 26%);
+    color: hsl(243, 100%, 93%);
+    border-radius: 15px;
+    width: 35%;
+    padding: 40px;
+    bottom: -20px;
+
+}
+
+.progressBar{
+    height: 28px;
+    background: hsl(229, 57%, 11%);
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+
+
+.Dot{
+
+    height: 15px;
+    width: 16px;
+    background: white;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 3px;
+}
+.progressBar > span{
+    height: 20px;
+    width: 80%;
+    margin: 4px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -4px;
+    animation-name: leftToRight;
+    animation-duration: 2s; 
+}
+@keyframes leftToRight {
+    from {width: 20px;}
+    to {width: 80%}
+  }
+
+.zero{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption{
+    font-family: 'Outfit', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
